@@ -1,3 +1,10 @@
+---
+title: Smart Fishing Rod
+layout: home
+nav_order: 1
+parent: academic
+---
+
 <h1 align="center"> Smart Fishing Rod </h1>
 
 
