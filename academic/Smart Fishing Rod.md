@@ -1,5 +1,5 @@
 
-[ML fish detection](/images/fishing rod/ML fish detection.png "Fish Identification")
+![ML fish detection](/images/fishing-rod/ML-fish-detection.png "Fish Identification")
 
 <h1 align="center"> Smart Fishing Rod </h1>
 
