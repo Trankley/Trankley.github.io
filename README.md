@@ -11,3 +11,7 @@
 As an innovative Computer Engineer with a passion for blending hardware and software to solve complex problems, I bring a track record of success in interdisciplinary projects. 
 
 My expertise spans from developing cutting-edge technology solutions, like an audio-reactive hoverboard and a machine learning-powered fishing rod attachment, to leading teams to victory in competitive engineering challenges. Proficient in Python, machine learning, and product development, I am dedicated to continuous learning and applying my skills towards impactful and sustainable technological advancements.
+
+<h2>Projects</h2>
+
+<a href="https://trankley.github.io/academic/Smart_Fishing_Rod">Smart Fishing Rod</a>
