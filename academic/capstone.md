@@ -6,6 +6,8 @@ The Hover DR1 transforms an ordinary hoverboard into an audio-reactive drone tha
 <br>
 Part of this project was creating and launching kickstarter so that we could experience what its like to actually bring a product to market. To see our kickstarter campaign click the link below. 
 
+<a href="https://www.kickstarter.com/projects/hoverdr1/rah-reactive-audio-hoverboard-attachment?ref=project_build">Hover DR1 Kickstarter</a>
+
 <h3>Key Features</h3>
 <ul>
 <li><b>Audio Reactivity</b>: Utilizes fourier transforms that translates audio frequencies into movement, allowing the hoverboard to react dynamically to music and sounds.</li>
@@ -29,4 +31,5 @@ Part of this project was creating and launching kickstarter so that we could exp
 </ul>
 
 <h2>Code</h2>
+<a href="https://www.kickstarter.com/projects/hoverdr1/rah-reactive-audio-hoverboard-attachment?ref=project_build">Hover DR1 Kickstarter</a>
 
