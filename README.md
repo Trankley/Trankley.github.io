@@ -15,3 +15,6 @@ My expertise spans from developing cutting-edge technology solutions, like an au
 <h2>Projects</h2>
 
 <a href="https://trankley.github.io/academic/Smart_Fishing_Rod">Smart Fishing Rod</a>
+<a href="https://trankley.github.io/academic/capstone">Hover DR1</a>
+<a href="https://trankley.github.io/academic/19_Bit_ISA">Custom 19-Bit ISA</a>
+<a href="https://trankley.github.io/academic/Steven_The_Robot">Embedded Systems Autonomus Robot</a>
