@@ -1,9 +1,14 @@
 <h1>Hover DR1</h1>
-
+<p align="center"><img src= "/images/capstone/hoverDR1Render" Width=600/>
+</p>
 <h3>Overview</h3>
 Hover DR1 was the senior design project that I led to first place at our senior design EXPO.
 
 <br>
+
+<p align="center"><img src= "/images/capstone/HoverDR1Wall" Width=600/>
+</p>
+
 <br>
 The Hover DR1 transforms an ordinary hoverboard into an audio-reactive drone that responds to music and sound, turning a standard device into an engaging educational tool. Designed specifically to introduce children and teens to the fundamentals of computer science, mechanics, and engineering, the Hover DR1 provides a fun and interactive way to learn these principles.
 <br>
@@ -27,6 +32,9 @@ Part of this project was creating and launching kickstarter so that we could exp
   <li><b>12V Geared Motor</b>:</li>
   <li><b>Frame Material</b>:</li>
 </ul>
+
+<p align="center"><img src= "/images/capstone/deviceExploded" Width=600/>
+</p>
 
 <h3>User Experience</h3>
 <ul>
