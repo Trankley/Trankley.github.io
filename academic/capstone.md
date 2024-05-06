@@ -1,4 +1,4 @@
-<h1>Hover DR1</h1>
+<h1 align="center">Hover DR1</h1>
 <p align="center"><img src= "/images/capstone/hoverDR1Render" Width=600/>
 </p>
 <h3>Overview</h3>
