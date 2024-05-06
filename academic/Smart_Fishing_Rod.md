@@ -52,7 +52,7 @@ The Smart Fishing Rod revolutionizes the fishing experience by incorporating cut
         Users can set custom notifications for fish activity based on species preference and bite sensitivity settings.</li>
 </ul>
 
-<h2>Future Developments</h2>
+<h3>Future Developments</h3>
 
 <ul>
     <li><b>Species Expansion</b>:
@@ -62,3 +62,5 @@ The Smart Fishing Rod revolutionizes the fishing experience by incorporating cut
     <li><b>Enviromental Sensors</b>:
         Depth, water temperature, and water quality sensors to provide more detailed enviromental feedback, enhancing the fishing experience</li>
 </ul>
+
+<h2>Code Preview</h2>
