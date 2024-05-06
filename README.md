@@ -14,7 +14,7 @@ My expertise spans from developing cutting-edge technology solutions, like an au
 <li><a href="https://trankley.github.io/academic/Smart_Fishing_Rod">Smart Fishing Rod</a></li>
 <li><a href="https://trankley.github.io/academic/capstone">Hover DR1</a></li>
 <li><a href="https://trankley.github.io/academic/19_Bit_ISA">Custom 19-Bit ISA</a></li>
-<li><a href="https://trankley.github.io/academic/Steven_The_Robot">Embedded Systems Autonomus Robot</a></li>
+<li><a href="https://trankley.github.io/academic/StevenTheRobot">Embedded Systems Autonomus Robot</a></li>
 </ul>
 
 <img alt="San Antonio Skyline" src="https://www.beecreekphoto.com/images/xl/san-antonio-skyline-twilight-pano-D85_2913.jpg">
