@@ -1,6 +1,10 @@
 <h1>Hover DR1</h1>
 
 <h3>Overview</h3>
+Hover DR1 was the senior design project that I led to first place at our senior design EXPO.
+
+<br>
+<br>
 The Hover DR1 transforms an ordinary hoverboard into an audio-reactive drone that responds to music and sound, turning a standard device into an engaging educational tool. Designed specifically to introduce children and teens to the fundamentals of computer science, mechanics, and engineering, the Hover DR1 provides a fun and interactive way to learn these principles.
 <br>
 <br>
