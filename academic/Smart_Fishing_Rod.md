@@ -1,5 +1,5 @@
 ---
-title: Smart Fishing Rod
+title: Smart_Fishing_Rod
 layout: home
 nav_order: 1
 parent: academic
