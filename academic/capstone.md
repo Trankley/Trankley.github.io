@@ -50,8 +50,8 @@ Part of this project was creating and launching kickstarter so that we could exp
   <li><b>Broader Educational Reach</b>: Aiming to partner with schools and educational programs to incorporate the Hover DR1 into curriculums and after-school programs.</li>
 </ul>
 
-<h2>Code</h2>
-All code updates where posted on this github repository and is available to the public.
+<h2>Code and 3D models</h2>
+All code and 3D model updates where posted on this github repository and is available to the public.
 
-<a href="https://github.com/KL3M71/HoverboardDR1">Hover DR1 Code</a>
+<a href="https://github.com/KL3M71/HoverboardDR1">Hover DR1</a>
 
