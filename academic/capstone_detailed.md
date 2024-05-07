@@ -1,6 +1,24 @@
 <h1>Detailed Hover DR1 Documentation</h1>
 
-<h3>Reactive Audio Hoverboard</h3>
+<h3>About</h3>
+This documentation contains the contents of the final-deliverable my team presented for our Capstone Design project. We placed <a href="https://www.linkedin.com/posts/eceutdallas_youbelonghere-utd-stem-ugcPost-7154169550811398144-j8RZ?utm_source=share&utm_medium=member_desktop">1st place</a> in the ECE department competeing against fellow CE/EE majors at the University of Texas at Dallas.
+
+
+<h1>Reactive Audio Hoverboard</h1>
+<h4>UTDesign Fall 2023</h4>
+<h4>UTDesign Team 1792</h4>
+<ul>
+  <li>Trankley Mahler</li>
+  <li>Jimmy Tran</li>
+  <li>Jonathan Abshiro</li>
+  <li>Kevin Mikhaiel</li>
+  <li>Tate Froh</li>
+  <li>William Lim</li>
+</ul>
+<h4>Faculty Advisor:</h4>
+Dr. Leo Estevez
+<h4>Instructor:</h4>
+Dr. Marco Tacca
 
 <h2>Abstract</h2>
 The team designed and built a market-ready kit, marketed as the HoverDR1 Learning Module, that allows consumers to convert their hoverboard devices into learning platforms using off the shelf parts and a provided instruction guide. The kit is powered by an Arduino Uno, and controls the movement of the hoverboard based on the audio frequencies detected by the module. The kit includes the aforementioned Arduino Uno, as well as a microphone module, a motor, a casing, a mounting solution, an emergency stop mechanism, and a motor relay. This device allows parents to teach their kids the basics of engineering, STEM, and software development using a guided, but expandable, learning platform.
@@ -122,22 +140,54 @@ The team designed and built a market-ready kit, marketed as the HoverDR1 Learnin
   </ol>
 </ol>
 
-<h2>About</h2>
-This documentation contains the contents of the final-deliverable my team presented for our Capstone Design project. We placed <a href="https://www.linkedin.com/posts/eceutdallas_youbelonghere-utd-stem-ugcPost-7154169550811398144-j8RZ?utm_source=share&utm_medium=member_desktop">1st place</a> in the ECE department competeing against fellow CE/EE majors at the University of Texas at Dallas.
-
-<h2>Team and Team Structure</h2>
+<h2>Acknowledgements</h2>
+We would like to thank the following people for their guidance and help with the project:
 <ul>
-  <li><b>Trankley Mahler</b>: Project Lead</li>
-  <li><b>Tate Froh</b>: Head of Chassis Design</li>
-  <li><b>Kevin Mikhaiel</b>: Point of Contact</li>
-  <li><b>William Lim</b>: Embedded Systems, Audio Processing </li>
-  <li><b>Jimmy Tran</b>: Motor Controls</li>
-  <li><b>Jonathan Abshiro</b>: Head of fundraising</li>
+  <li>Professor Leo Estevez</li>
+  <li>Professor Marco Tacca</li>
 </ul>
 
-<h2>Problem Statement</h2>
 
-The Hover DR1 was developed to solve the challenge of making STEM education engaging and accessible for students. Traditional teaching methods often struggle to capture attention or provide practical applications for core engineering and computer science concepts. The audio-reactive hoverboard bridges this gap by transforming abstract principles into a tangible, interactive experience that allows students to customize and control settings directly. It fosters creativity and teamwork through collaborative experimentation, making it easier for students to grasp difficult concepts while having fun. By providing a hands-on platform that turns theory into practice, the Hover DR1 inspires the next generation of engineers and scientists through an accessible, immersive learning environment.
 
-<h2>Design Constraints</h2>
+<h2>1. Introduction</h2>
+The RAH team at UTD has developed the HoverDR1 attachment designed to allow control of a hoverboard through the use of auditory stimuli. The purpose of the document is to provide the methodology for verifying the requirements (as stated in the Functional Specification) have been satisfied by the current design. <br><br>
+The attachment is mounted on top of the hoverboard and controls it by mimicking the way it would be controlled normally. The system consists of a chassis and a shaft that runs across the hoverboard, both the chassis and shaft are strapped down to the left and right plates on the hoverboard to mimic someone stepping on it. The chassis holds all of the components of the design, the arduino, motor, motor controller, and microphone. The system is powered by one external battery that is also weight-biasing the hoverboard forward. When the system is on, if the microphone detects one of two predetermined frequencies, the arduino will send a signal to the motor controller, which will rotate the motor’s shaft left or right according to the frequency detected. The motor movement will rotate the hoverboard axis and cause it to turn.<br><br>
+We have designed the arduino code to interface the microphone and motor controller, we have also designed the mechanical function and chassis of the attachment. The off-shelf components are the arduino, battery, microphone, motor, motor controller, and various fixtures(screws, washers, etc).
 
+<h2>2. Review of Conceptual and Preliminary Design</h2>
+<ol>
+  <li>Problem Analysis</li>
+  <ol>
+    <li>Summary of Specifications:</li>
+    The attachment will lay on top of the hoverboard and be completely independent of the hoverboard. Meaning that the attachment will be able to be compatible with various hoverboards. The attachment should be able to obtain frequencies and utilize them as commands to control the hoverboard that it is on. These commands consist of, turning left, right, forward, and stopping.
+    <li>Main Features of Design Problem</li>
+    <ul>
+      <li>Device Development</li>
+      <ul>
+        <li>An electromechanical attachment to a Hoverboard which leverages the Bluetooth Audio integrated in the Hoverboard to control its movements.</li>
+        <li>The component cost of this attachment should be less than $50. (A hoverboard will be provided to the team for development and testing.)</li>
+        <li>An existing downloadable audio app should be used to control the Hoverboard.</li>
+        <li>The Hoverboard DR1 attachment may be prototyped with an off the shelf EVM which enables audio sensing and motor control.</li>
+      </ul>
+      <li>Hover DR1 Crowdfunding</li>
+      <ul>
+        <li>1st Month: Order Relevant EVMs and Prototype an Audio Controller</li>
+        <li>2nd Month: Test to have first Proof of Concept and Stage for Campaign(file Provisional Patent)</li>
+        <li>3rd Month: Launch Campaign and Report on progress towards making lower cost integrated solutions available to the public with daily posts to the campaign.</li>
+        <li>4th Month: Continued posts on progress towards working boards and posts on how multiple units are being produced and tested.</li>
+        <li>5th Month: Shipping Units to Backers</li>
+        <li>6th Month: Preparation/Presentation of Project Results at UTD</li>
+      </ul>
+    </ul>
+    <li>Technical Approach</li>
+    Due to the nature of our unique project, we were split into two main teams to execute effectively. These teams were Development and Marketing, while we all helped  on both parts of this project, we had people focus mainly on one or the other.
+    <ol>
+      <li>Deveopment:</li>
+      <br>The development team consisted of Trankley, Tate, William, and Jimmy. This group was in charge of the physical development of the prototypes and the coding of the device itself. This team would meet to experiment with new hardware ideas that would improve the overall performance of the device while minimizing the cost to keep it under that $50 price point.<br><br>
+      <li>Marketing</li>
+      <br>The marketing team consisted of Jonathan and Kevin. This group would meet with Leo and discuss the strategy for the Kickstarter. They also would go to engineering conventions such as Texas BEST, to show them the device and get feedback from middle school and high school students.<br>
+    </ol>
+    <br>Even though we were split into these groups, it is important to note that all group members contributed significantly to both sides of the project.
+  </ol>
+  <li>Decision Analysis</li>
+</ol>
