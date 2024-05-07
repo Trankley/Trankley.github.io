@@ -1,6 +1,5 @@
 <h1 align="center">Hover DR1</h1>
-<p align="center"><img src= "/images/capstone/hoverDR1Render" Width=600/>
-</p>
+
 <h3>Overview</h3>
 Hover DR1 was the senior design project that I led to first place at our senior design EXPO.
 
@@ -16,6 +15,9 @@ The Hover DR1 transforms an ordinary hoverboard into an audio-reactive drone tha
 Part of this project was creating and launching kickstarter so that we could experience what its like to actually bring a product to market. To see our kickstarter campaign click the link below. 
 
 <a href="https://www.kickstarter.com/projects/hoverdr1/rah-reactive-audio-hoverboard-attachment?ref=project_build">Hover DR1 Kickstarter</a>
+
+<p align="center"><img src= "/images/capstone/hoverDR1Render" Width=600/>
+</p>
 
 <h3>Key Features</h3>
 <ul>
