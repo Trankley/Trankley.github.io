@@ -190,4 +190,27 @@ We have designed the arduino code to interface the microphone and motor controll
     <br>Even though we were split into these groups, it is important to note that all group members contributed significantly to both sides of the project.
   </ol>
   <li>Decision Analysis</li>
+  <ol>
+    <li>Solution Alternatives</li>
+    <ul>
+      <li>A device that functions similarly to the Hover DR1 could be created using a remote 
+        control car. However, the decision to use a hoverboard was based on the concept that
+        many people have hoverboards laying around their house that they do not use anymore, 
+        and that hoverboards have a “cool” factor that gets people interested.</li>
+      <li>Again, a device that could compare to the Hover DR1 could be created using remote 
+        controls based on radio frequencies, rather than audible sound, however, the decision
+        to make it operate solely on sound would add uniqueness and the ability for the
+        hoverboard to dance to music in theory.</li>
+      <li>Designing and using a custom PCB to contain our device on one board was considered.
+        This would allow the Hover DR1 to have a significantly smaller form and be simpler to
+        install. The decision to use premade devices, such as the arduino and motor 
+        controller was made based on the modular nature of the device. We wanted the device 
+        to be approachable by anyone who wanted to add their own modules or functions to it,
+        this adds to the educational aspect of the project.</li>
+      <li>Another device that was considered to be used as our main board is a Teensy USB 
+        development board. This is much smaller than the Arduino Uno but lacks the same 
+        modularity and accessibility that our educational platform demands. </li>
+    </ul>
+
+  </ol>
 </ol>
