@@ -9,7 +9,7 @@ Hover DR1 was the senior design project that I led to first place at our senior 
 </p>
 
 <br>
-The Hover DR1 transforms an ordinary hoverboard into an audio-reactive drone that responds to music and sound, turning a standard device into an engaging educational tool. Designed specifically to introduce children and teens to the fundamentals of computer science, mechanics, and engineering, the Hover DR1 provides a fun and interactive way to learn these principles.
+The hoverboard is a once popular transportation platform, often used as a toy, that is now left behind as electronic waste collecting dust in many people’s homes. We have been tasked with creating a module that will utilize the old hoverboards in new ways. Our module allows users of all ages and skill levels to add audio based commands to their hoverboards. In doing so, students gain experience and learn the fundamentals of programming and engineering. For those who are more familiar with engineering concepts, the module allows them to create their own custom reactions for the hoverboards they already own using audio cues, driven by a microphone module, a motor, and an Arduino Uno device. Due to the modular nature of our solution, it can fit on nearly all hoverboard models, and is mounted externally to prevent voiding device warranties.
 <br>
 <br>
 Part of this project was creating and launching kickstarter so that we could experience what its like to actually bring a product to market. To see our kickstarter campaign click the link below. 
