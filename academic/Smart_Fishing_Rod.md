@@ -64,3 +64,6 @@ The Smart Fishing Rod revolutionizes the fishing experience by incorporating cut
 </ul>
 
 <h2>Code Preview</h2>
+
+<h2>Final Project Presentation</h2>
+<a href="https://trankley.github.io/images/fishing-rod/SmartFishingRodFull">Click to download the final presentation</a>
