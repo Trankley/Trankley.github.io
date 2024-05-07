@@ -6,7 +6,7 @@ Hover DR1 was the senior design project that I led to first place at our senior 
 
 <br>
 
-<p align="center"><img src= "/images/capstone/HoverDR1Wall" Width=600/>
+<p align="center"><img src= "/images/capstone/HoverAward.jpg" Width=600/>
 </p>
 
 <br>
