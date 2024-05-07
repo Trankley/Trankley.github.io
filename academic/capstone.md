@@ -55,3 +55,6 @@ All code and 3D model updates where posted on this github repository and is avai
 
 <a href="https://github.com/KL3M71/HoverboardDR1">Hover DR1</a>
 
+<h2>Full Deliverable</h2>
+<li><a href="https://trankley.github.io/academic/capstone_detailed">Detailed write up</a></li>
+
