@@ -384,13 +384,13 @@ A motor driver plays an important role in controlling both the speed and spinnin
 <h2>5. Testing Procedure</h2>
 <ol>
 	<li>Test Case #1: Sound to FFT</li>
-	<p align="center"><img src= "/images/capstone/Microphone.png" Width=400/></p>
+	<p align="center"><img src= "/images/capstone/Test1.png" Width=500/></p>
 	<li>Test Case #2: Motor Control</li>
-	<p align="center"><img src= "/images/capstone/Microphone.png" Width=400/></p>
+	<p align="center"><img src= "/images/capstone/Test2.png" Width=500/></p>
 	<li>Test Case #3: Pressue Plate Activation</li>
-	<p align="center"><img src= "/images/capstone/Microphone.png" Width=400/></p>
+	<p align="center"><img src= "/images/capstone/Test3.png" Width=500/></p>
 	<li>Test Case #4: Safety Stop</li>
-	<p align="center"><img src= "/images/capstone/Microphone.png" Width=400/></p>
+	<p align="center"><img src= "/images/capstone/Test4.png" Width=500/></p>
 </ol>
 
 
