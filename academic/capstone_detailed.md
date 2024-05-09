@@ -210,7 +210,26 @@ We have designed the arduino code to interface the microphone and motor controll
       <li>Another device that was considered to be used as our main board is a Teensy USB 
         development board. This is much smaller than the Arduino Uno but lacks the same 
         modularity and accessibility that our educational platform demands. </li>
+      <p align="center"><img src= "/images/capstone/Teensy.png" Width=400/></p>
+        <h4 align="center">Figure 1: Teensy 4.0</h4>
+      <p align="center"><img src= "/images/capstone/ArduinoR3.png" Width=400/></p>
+        <h4 align="center">Figure 2: Arduino R3 Platform</h4>
     </ul>
-
+    <li>Effectiveness Criteria</li>
+    Our decisions were made by rating the alternate solutions that we came up with based on
+    the following criteria;
+    <ol>
+      <li>Initial Viability</li>
+      <li>Cost</li>
+      <li>Modularity</li>
+      <li>Size</li>
+      <li>Accessibility</li>
+    </ol>
+    Each of the factors is weighted based on their importance to the team and the project’s success.
+    <h4>Microcontroller Platform Trade Study:</h4>
+    
+    |         |      Criteria     | Max Score | Score | Weight | Weighted Score |
+    |---      |---                |---        |---    |---     |---             |
+    |    1    | Initial Viability |     5     |   5   |   25%  |       25%      |
   </ol>
 </ol>
