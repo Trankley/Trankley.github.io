@@ -312,8 +312,86 @@ A motor driver plays an important role in controlling both the speed and spinnin
  The safety-stop holder is a 3D-printed mount for the linear actuator that makes up the safety mechanism. The holder is mounted with straps to the hoverboard and can be aligned with the power button on most hoverboards so that, when activated and calibrated correctly, the power button can be pushed remotely and the hoverboard will turn off.
 </ol>
 
+<h2>Performance Optimization and Design of System Components</h2>
+<ol>
+<li>Design Criteria</li>
+	<ol>
+	<li>Motor Control</li>
+	  <br>Performance optimization of motor control depends on the specifications. For the L298N motor driver, its input voltage ranges from 5V to 12V and the output channels will allow 5V to 12V DC motors to be attached. Performance optimization will not be vital concerning the motor control and DC motor because little force is required to activate pressure plates. Through testing at least a 30 RPM motor is sufficient. To maximize speed the motor power supply should have +2V more than the voltage required on the motor, although not needed. The performance optimization between the motor control and battery is the use of a 12V battery. Combining these three components along with an Arduino will allow the motor controller to control the DC motor effectively.<br><br>
+	  <li>Audio Processing</li>
+	  <br>The microphone(ky-038) will be attached to the chassis of the attachment and will pick up sounds coming from the hoverboard’s speaker. The audio signal is then sent and processed by an Arduino R3. An FFT operation is performed on the audio signal by the Arduino R3 and then the dominant frequency is used as the command to be sent to the motor controller. To ensure that the audio processing is efficient, the sampling speed is fine-tuned to remain accurate but remain at sampling speeds that do slow the real-time operation. In addition, only the dominant frequency is used for commands to reduce the complexity of the FFT operation. To reduce redundant commands, like a left turn command when the hoverboard is already moving left, a state machine will be used. The state machine allows the Arduino to remember a few previous commands and prevents the redundant commands from being executed.  The microphone placement is also important to ensure that the hoverboard’s speaker is properly picked up. So in order to ensure a solid performance from the microphone, the microphone is placed relatively close to the speaker but not too far from the Arduino.<br><br>
+	<li>Chassis</li>
+		<br>The chassis needed to be universal for all hoverboards. Therefore the design was required to not be specific to the hoverboard we were testing on. Ideally, it would be adjustable to fit other sizes and shapes of hoverboards. We decided to go with a design that was universal in that it fit most hoverboards on the market and it would be rare to find one that it wouldn't work on. The rotational shaft length is the main concern when considering the fit of the device. We made the shaft length fit the medium sized hoverboard we were testing on, that way a smaller or larger board would likely still fit. Following the same requirement of universal mounting, the device is mounted with straps, this allows for any size hoverboard to be compatible, as the straps are widely adjustable. The chassis takes the strap mounting system into account by incorporating geometry that compliments the mounting mechanism. This includes, “wings” that extrude out from the chassis to hold the straps as they are tightened down onto the hoverboard.<br><br>
+	The chassis needed to be rigid enough to not break under the forces of the straps, as they needed to be tight enough to activate the pressure plates of the hoverboard. Therefore, the PLA construction of the chassis is made thick enough to withstand those forces. The part of the chassis that holds the motor also needed special consideration, as the motor has a significant amount of torque. <br>
+	</ol>
+	<li>Components</li>
+	<ol>
+		<li>Motor Control</li><br>
+<p align="center"><img src= "/images/capstone/MotorControllerPinOut.png" Width=400/></p>
+        <h4 align="center">Figure 9: L298N Motor Contoller</h4>
+		<h4>Components for motor control</h4>
+		<ol>
+			<li>L298N DC Motor Driver</li>
+			<li>Arduino</li>
+			<li>Battery/Power supply</li>
+			<li>DC Motor</li>
+			<li>Wires</li>
+		</ol><br>
+		<li>Audio Processing</li><br>
+<p align="center"><img src= "/images/capstone/Microphone.png" Width=400/></p>
+        <h4 align="center">Figure 10: KY-038 Microphone</h4>
+   		<h4>Audio processing components</h4>
+		<ol>
+			<li>KY-038</li>
+			<li>Arduino R3</li>
+			<li>Arduino FFT Library</li>
+		</ol><br>
+		<li>Chassis</li>
+  		<h4>Chassis components:</h4>
+		<ol>
+			<li>PLA Construction</li>
+			<li>13 x 4-40 x 1/4' screws</li>
+			<li>9 x 4-40 bolts</li>
+			<li>Creality CR-10 Printer</li>
+			<li>300 x 8mm steel rod</li>
+			<li>straps</li>
+		</ol>
+	</ol><br>
+	<li>Fabrication/Assembly Process</li>
+	<ol>
+		<li>Motor Control</li><br>
+		The motor controller is attached to the chassis along with the DC motor. The motor controller has pins that connect the majority of the hardware. Firstly we have the VS and GND pins that connect to the power and ground of the battery respectively. The motor control has OUT1-OUT4 pins that connect to the DC motors. We used OUT1 and OUT2 to connect it. Lastly, we have pins ENA, ENB, IN1 & IN2, these three pins will be attached to the arduino. We will use all these pins to control the geared motor. ENA and ENB are used to turn on and off the motors. IN1 & IN2 are used to control the spinning direction of the motor. All of these components will be attached to the chassis and enclosed.<br><br>
+		<li>Audio Processing</li><br>
+		Both the microphone and the Arduino will be attached to the chassis of the attachment. In addition, the microphone will be positioned to be relatively close to the speaker to ensure the microphone can reliably listen to the speaker on the hoverboard. Due to the educational background of the device, most parts will be breakout boards rather than a dedicated custom PCB. This allows for the modularity of the device and the ability to scale and add more sensors to the device. Due to the microphone being a breakout board, jumper wires are also used to connect to the Arduino instead of soldering wires.<br><br>
+		<li>Chassis</li><br>
+		The chassis was fabricated using 3D printing with PLA filament. First, the arduino, motor, motor controller, and microphone should be screwed into the chassis using the screws and bolts. Once these components are mounted, the forward-bias mount can be slid onto the main shaft and connected to the motor output shaft. This is the main construction of the device. Then the components can be wired together according to the wiring diagram in the quickstart guide. The main assembly can be strapped down to the hoverboard to activate the pressure plates. Then the safety stop mechanism can be mounted with the straps and aligned to the power button, then wired to the arduino on the main assembly. <br><br>
+	</ol>
+	<li>Performance Evaluation</li>
+	<ol>
+		<li>Metric 1: Frequency identification and adjustment</li><br>
+		The HoverDR1 module is designed to detect various frequency ranges and subsequently modulate the motor's power output in response to the identified frequency. During our testing phase, the microphone consistently demonstrated its ability to accurately identify and maintain the detected frequencies, even when the hoverboard was in motion. This functionality showcases the module's reliability and effectiveness in real-world scenarios.<br><br>
+		<li>Metric 2: Universality</li><br>
+		The HoverDR1 module is specifically engineered for universal compatibility, enabling it to seamlessly integrate with any pre-existing hoverboard model. In our evaluation, we meticulously affixed and tested the module on a diverse range of hoverboards, encompassing varying sizes, weight limits, built-in speaker configurations, and power button locations. Impressively, the HoverDR1 module proved to be adaptable and successfully accommodated all three hoverboard models we assessed, irrespective of their differences in:
+		<ol>
+			<li>Size</li>
+			<li>Weight Limit</li>
+			<li>Built-in Speaker Presence</li>
+			<li>Power Button Location</li>
+		</ol>
+	</ol>
+</ol>
 
-
+<h2>5. Testing Procedure</h2>
+<ol>
+	<li>Test Case #1: Sound to FFT</li>
+	<p align="center"><img src= "/images/capstone/Microphone.png" Width=400/></p>
+	<li>Test Case #2: Motor Control</li>
+	<p align="center"><img src= "/images/capstone/Microphone.png" Width=400/></p>
+	<li>Test Case #3: Pressue Plate Activation</li>
+	<p align="center"><img src= "/images/capstone/Microphone.png" Width=400/></p>
+	<li>Test Case #4: Safety Stop</li>
+	<p align="center"><img src= "/images/capstone/Microphone.png" Width=400/></p>
+</ol>
 
 
 
