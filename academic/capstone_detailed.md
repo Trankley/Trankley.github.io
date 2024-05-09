@@ -228,7 +228,7 @@ We have designed the arduino code to interface the microphone and motor controll
 
   <h4 align="center"> Microcontroller Platform Trade Study </h4>
     
-  ### Table 1: Arduino R3 Platform
+<h3>Table 1: Arduino R3 Platform</h3>
 
 |         | Criteria          | Max Score | Score | Weight | Weighted Score |
 |---------|-------------------|-----------|-------|--------|----------------|
@@ -239,7 +239,7 @@ We have designed the arduino code to interface the microphone and motor controll
 | 5       | Accessibility     | 5         | 5     | 20%    | 20%           |
 | **Total** |                 |           |       | 100%   | 94%           |
 
-### Table 2: Custom PCB Platform
+<h3>Table 2: Custom PCB Platform</h3>
 
 |         | Criteria          | Max Score | Score | Weight | Weighted Score |
 |---------|-------------------|-----------|-------|--------|----------------|
@@ -250,7 +250,7 @@ We have designed the arduino code to interface the microphone and motor controll
 | 5       | Accessibility     | 5         | 2     | 20%    | 8%            |
 | **Total** |                 |           |       | 100%   | 49%           |
 
-### Table 3: Teensy 4.0 Platform
+<h3>Table 3: Teensy 4.0 Platform</h3>
 
 |         | Criteria          | Max Score | Score | Weight | Weighted Score |
 |---------|-------------------|-----------|-------|--------|----------------|
