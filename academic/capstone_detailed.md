@@ -262,9 +262,29 @@ We have designed the arduino code to interface the microphone and motor controll
 | **Total** |                 |           |       | 100%   | 78%           |
 
 
-
-
-
+  <li>Decision Analysis</li>
+  The Arduino Uno platform scored the highest based on our trade studies. We made the decision to use the Arduino platform mainly because of its accessibility and cost-effectiveness. Modularity became more of a concern as our project progressed, therefore we decided to stick with the arduino platform for adding things like radar or other functions to the device.<br><br>
+	The custom PCB idea would have been an expensive solution, however, it would have likely been the most space-efficient one. The DR1 device could have been much smaller using a custom board, however, it would lose its modularity entirely. This is something that would have been more viable if we were creating a product that was intended to not be opened up and experimented with.<br><br>
+	The Teensy platform was one that was considered as well. Its size was smaller than the arduino, which was enticing, and its cost was comparable to the arduino platform, making it a very good option at first glance. However, it was lacking in the educational requirements of our project, like modularity and accessibility. While it likely could have been made modular, the simplicity of the Arduino is what kept us with it instead of the Teensy.<br><br>
   
   </ol>
 </ol>
+
+<h2>3. Basic Solution Description</h2>
+The Hover DR1 consists of the following components; an Arduino Uno R3 controller, a DC geared motor, a microphone, chassis, an L298N motor controller, and a 12V portable battery. The audio comes from the hoverboard’s on-board Bluetooth speaker. The analog signal that is detected by the microphone is sent to the arduino. Our arduino uses the fast-fourier transform function in the arduino fft library to determine the dominant frequency that is being detected. Based on the dominant frequency that is detected, the arduino sends a signal to the motor controller to turn the motor either clockwise or counter-clockwise. The motor controller sends the correct voltage to the motor and the action is carried out. The rotation of the motor is translated through the main shaft across the hoverboard’s pressure plates, twisting the hoverboard and mimicking the movement of someone standing on it trying to turn. The hoverboard is weighted forward so that it is constantly moving in a direction.<br><br>
+
+We have implemented a safety-stop feature so that the hoverboard will deactivate after 10 seconds of inactivity or the stop frequency is detected by the microphone. The safety-stop functions with a linear actuator powered by the arduino which simply pushes the power button on the hoverboard when the stop-procedure is initiated.<br><br>
+
+ <p align="center"><img src= "/images/capstone/ArduinoR3.png" Width=400/></p>
+        <h4 align="center">Figure 3: Depiction of the Components of the main system</h4>
+
+ <p align="center"><img src= "/images/capstone/ArduinoR3.png" Width=400/></p>
+        <h4 align="center">Figure 4: Depiction of the device on the hoverboard with the main shaft and biasing mount</h4>
+
+
+
+
+
+
+
+
