@@ -393,5 +393,35 @@ A motor driver plays an important role in controlling both the speed and spinnin
 	<p align="center"><img src= "/images/capstone/Test4.png" Width=500/></p>
 </ol>
 
+<h2>6. Project Implementation/Operation and Assessment</h2>
+<ol>
+	<li>Overview of the final implementation</li><br>
+	The final implementation of the hoverboard project introduces the ability to control the movement of the hoverboard using sound. This innovative technology is not only a leap forward in user interaction but also serves as a unique learning platform for aspiring young engineers.<br><br>
+
+The sound-controlled navigation system leverages advanced audio processing algorithms and onboard microphones to interpret specific commands and translate them into precise movements. Users can effortlessly maneuver the hoverboard by emitting distinct sounds or modulating their voice pitch. This feature adds an element of fun and engagement to the user experience.<br><br>
+
+Beyond its immediate benefits, the sound-controlled feature serves as an educational tool, particularly for young engineers entering the field. The underlying principles involve signal processing, machine learning, and sensor integration, providing a practical and tangible application for theoretical knowledge. The modular nature of the hoverboard attachment encourages experimentation and tinkering, allowing young engineers to explore the intricacies of sound-based control systems and expand their understanding of real-world applications.<br><br>
+
+The learning platform aspect is further enhanced by open-source software and documentation provided by the hoverboard project team. This empowers young engineers to delve into the code, modify algorithms, and experiment with different configurations. The hoverboard attachment becomes a canvas for creativity, encouraging the next generation of engineers to think innovatively and contribute to the evolution of personal transportation technology.<br><br>
+
+In essence, the sound-controlled movement feature not only elevates the hoverboard's user experience but also serves as a gateway for learning and exploration, nurturing the curiosity and passion of young engineers. The hoverboard project, with its forward-thinking technology and educational potential, paves the way for an exciting future where innovation and learning go hand in hand.<br><br>
 
 
+<li>Operational Test Results</li><br>
+The Hoverboard attachment was tested on multiple models and fits properly. The microphone, after calibration, properly identified the target frequencies with a +-2% accuracy.<br><br>
+
+
+<li>Evaluation of Results Relative to Design Criteria</li><br>
+Our device successfully fulfilled the requirements of the hardware design criteria. Our microphone was able to detect the frequency, which we then processed using an FFT library on the arduino. This was used to determine what command to run based on which frequency range we were in. Our kickstarter didn’t reach the goal of $8,000, but we did learn valuable lessons on how to format and manage a crowdfunding campaign. <br><br>
+
+
+<li>Kickstarter</li><br>
+Planning for the Kickstarter Campaign of the HoverDr1 project started in July.  The first step to determining how to market the project was to determine where it would hold value. We were supplied with a group of students from a Human-Computer Interactions class on the home campus, UTD. From July to Early August we collaborated on deciding on an ideal market, creating social media, landing pages, and surveys. <br><br>
+
+When choosing our target audience we wanted to select a group that would be more likely to have access to hoverboards as well as potentially be interested in engineering. Therefore we decided to aim our product primarily at prospective engineering students. By deciding this early in the process of building our design we were able to make choices that would make our product better appeal to our target audience. These choices include prioritizing modularity in our design, using parts that are easily separable and modifiable. Also using boards that may cost more, but allow for greater modification such as our main board the Arduino Uno R3. This allowed our prospective customers to utilize the rich arduino environment, including thousands of libraries, a fully fleshed out IDE, and numerous tutorials online.<br><br>
+
+
+Part of selecting this audience included surveying teachers and students to gauge what qualities were most valued within a potential learning tool. We used these results to better highlight the strengths of our platform. We utilized these when creating the landing page, and our Kickstarter promotions. With our Kickstarter we filmed a 2 minute video including a demo, as well as released weekly updates to our backers. In addition to collaborating with the HCI team on the landing page, we also collaborated on creating a social media account for the HoverDr1. Through this process, in addition with word of mouth marketing  we raised over 1500 dollars from our kickstarter.<br><br>
+</ol>
+
+<h2>7. Standards Used</h2>
