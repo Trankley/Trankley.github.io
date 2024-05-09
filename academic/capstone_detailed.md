@@ -86,9 +86,9 @@ The team designed and built a market-ready kit, marketed as the HoverDR1 Learnin
     <li>Evaluation of Results Relative to Design Criteria</li>
     <li>Kickstarter</li>
   </ol>
-  <li>Conclusion, Overview of Work Statement</li>
-  <li>Future Work Recommendations</li>
-  <li>Other Issues</li>
+  <li><a href="https://trankley.github.io/academic/capstone_detailed#7-conclusion-overview-of-work-statement">Conclusion, Overview of Work Statement</a></li>
+  <li><a href="https://trankley.github.io/academic/capstone_detailed#8-future-work-recommendations">Future Work Recommendations</a></li>
+  <li><a href="https://trankley.github.io/academic/capstone_detailed#9-other-issues">Other Issues</a></li>
   <ol>
     <li>Ethics</li>
     <ol>
@@ -104,12 +104,12 @@ The team designed and built a market-ready kit, marketed as the HoverDR1 Learnin
       <li>Mode 2 operation</li>
     </ol>
   </ol>
-  <li>Cost Estimate</li>
+  <li><a href="https://trankley.github.io/academic/capstone_detailed#10-cost-estimate">Cost Estimate</a></li>
   <ol>
     <li>Materials and Construction</li>
     <li>Estimate of Design Cost</li>
   </ol>
-  <li>Project Management Summary</li>
+  <li><a href="https://trankley.github.io/academic/capstone_detailed#11-project-management-summary">Project Management Summary</a></li>
   <ol>
     <li>Tasks Completed</li>
     <li>Tasks Pending Completion</li>
@@ -117,7 +117,7 @@ The team designed and built a market-ready kit, marketed as the HoverDR1 Learnin
     <li>Facilities Used</li>
     <li>Personnel</li>
   </ol>
-  <li>Appendices</li>
+  <li><a href="https://trankley.github.io/academic/capstone_detailed#12-appendices">Appendices</a></li>
   <ol>
     <li>Bibliography</li>
     <li>Quickstart Guide</li>
