@@ -224,12 +224,47 @@ We have designed the arduino code to interface the microphone and motor controll
       <li>Modularity</li>
       <li>Size</li>
       <li>Accessibility</li>
-    </ol>
-    Each of the factors is weighted based on their importance to the team and the project’s success.
-    <h4>Microcontroller Platform Trade Study:</h4>
+    </ol>  
+
+  <h4 align="center"> Microcontroller Platform Trade Study </h4>
     
-    |         |      Criteria     | Max Score | Score | Weight | Weighted Score |
-    |---      |---                |---        |---    |---     |---             |
-    |    1    | Initial Viability |     5     |   5   |   25%  |       25%      |
+  ### Table 1: Arduino R3 Platform
+
+|         | Criteria          | Max Score | Score | Weight | Weighted Score |
+|---------|-------------------|-----------|-------|--------|----------------|
+| 1       | Initial Viability | 5         | 5     | 25%    | 25%           |
+| 2       | Cost              | 5         | 5     | 15%    | 15%           |
+| 3       | Modularity        | 5         | 5     | 25%    | 25%           |
+| 4       | Size              | 5         | 3     | 15%    | 9%            |
+| 5       | Accessibility     | 5         | 5     | 20%    | 20%           |
+| **Total** |                 |           |       | 100%   | 94%           |
+
+### Table 2: Custom PCB Platform
+
+|         | Criteria          | Max Score | Score | Weight | Weighted Score |
+|---------|-------------------|-----------|-------|--------|----------------|
+| 1       | Initial Viability | 5         | 3     | 25%    | 15%           |
+| 2       | Cost              | 5         | 2     | 15%    | 6%            |
+| 3       | Modularity        | 5         | 1     | 25%    | 5%            |
+| 4       | Size              | 5         | 5     | 15%    | 15%           |
+| 5       | Accessibility     | 5         | 2     | 20%    | 8%            |
+| **Total** |                 |           |       | 100%   | 49%           |
+
+### Table 3: Teensy 4.0 Platform
+
+|         | Criteria          | Max Score | Score | Weight | Weighted Score |
+|---------|-------------------|-----------|-------|--------|----------------|
+| 1       | Initial Viability | 5         | 5     | 25%    | 25%           |
+| 2       | Cost              | 5         | 5     | 15%    | 15%           |
+| 3       | Modularity        | 5         | 3     | 25%    | 15%           |
+| 4       | Size              | 5         | 5     | 15%    | 15%           |
+| 5       | Accessibility     | 5         | 2     | 20%    | 8%            |
+| **Total** |                 |           |       | 100%   | 78%           |
+
+
+
+
+
+  
   </ol>
 </ol>
