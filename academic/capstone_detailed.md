@@ -228,38 +228,119 @@ We have designed the arduino code to interface the microphone and motor controll
 
   <h4 align="center"> Microcontroller Platform Trade Study </h4>
     
-<h3>Table 1: Arduino R3 Platform</h3>
+<h4>Table 1: Arduino R3 Platform</h4>
+<table>
+    <tr>
+        <th></th>
+        <th>Criteria</th>
+        <th>Max Score</th>
+        <th>Score</th>
+        <th>Weight</th>
+        <th>Weighted Score</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>Initial Viability</td>
+        <td>5</td>
+        <td>5</td>
+        <td>25%</td>
+        <td>25%</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>Cost</td>
+        <td>5</td>
+        <td>5</td>
+        <td>15%</td>
+        <td>15%</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>Modularity</td>
+        <td>5</td>
+        <td>5</td>
+        <td>25%</td>
+        <td>25%</td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>Size</td>
+        <td>5</td>
+        <td>3</td>
+        <td>15%</td>
+        <td>9%</td>
+    </tr>
+    <tr>
+        <td>5</td>
+        <td>Accessibility</td>
+        <td>5</td>
+        <td>5</td>
+        <td>20%</td>
+        <td>20%</td>
+    </tr>
+    <tr>
+        <td><strong>Total</strong></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>100%</td>
+        <td>94%</td>
+    </tr>
+</table>
 
-|         | Criteria          | Max Score | Score | Weight | Weighted Score |
-|---------|-------------------|-----------|-------|--------|----------------|
-| 1       | Initial Viability | 5         | 5     | 25%    | 25%           |
-| 2       | Cost              | 5         | 5     | 15%    | 15%           |
-| 3       | Modularity        | 5         | 5     | 25%    | 25%           |
-| 4       | Size              | 5         | 3     | 15%    | 9%            |
-| 5       | Accessibility     | 5         | 5     | 20%    | 20%           |
-| **Total** |                 |           |       | 100%   | 94%           |
+<h4>Table 2: Custom PCB Platform</h4>
+<table>
+    <tr>
+        <th></th>
+        <th>Criteria</th>
+        <th>Max Score</th>
+        <th>Score</th>
+        <th>Weight</th>
+        <th>Weighted Score</th>
+    </tr>
+    <tr>
+        <td>1</td><td>Initial Viability</td><td>5</td><td>3</td><td>25%</td><td>15%</td>
+    </tr>
+    <tr>
+        <td>2</td><td>Cost</td><td>5</td><td>2</td><td>15%</td><td>6%</td>
+    </tr>
+    <tr>
+        <td>3</td><td>Modularity</td><td>5</td><td>1</td><td>25%</td><td>5%</td>
+    </tr>
+    <tr>
+        <td>4</td><td>Size</td><td>5</td><td>5</td><td>15%</td><td>15%</td>
+    </tr>
+    <tr>
+        <td>5</td><td>Accessibility</td><td>5</td><td>2</td><td>20%</td><td>8%</td>
+    </tr>
+    <tr>
+        <td><strong>Total</strong></td><td></td><td></td><td></td><td>100%</td><td>49%</td>
+    </tr>
+</table>
 
-<h3>Table 2: Custom PCB Platform</h3>
-
-|         | Criteria          | Max Score | Score | Weight | Weighted Score |
-|---------|-------------------|-----------|-------|--------|----------------|
-| 1       | Initial Viability | 5         | 3     | 25%    | 15%           |
-| 2       | Cost              | 5         | 2     | 15%    | 6%            |
-| 3       | Modularity        | 5         | 1     | 25%    | 5%            |
-| 4       | Size              | 5         | 5     | 15%    | 15%           |
-| 5       | Accessibility     | 5         | 2     | 20%    | 8%            |
-| **Total** |                 |           |       | 100%   | 49%           |
-
-<h3>Table 3: Teensy 4.0 Platform</h3>
-
-|         | Criteria          | Max Score | Score | Weight | Weighted Score |
-|---------|-------------------|-----------|-------|--------|----------------|
-| 1       | Initial Viability | 5         | 5     | 25%    | 25%           |
-| 2       | Cost              | 5         | 5     | 15%    | 15%           |
-| 3       | Modularity        | 5         | 3     | 25%    | 15%           |
-| 4       | Size              | 5         | 5     | 15%    | 15%           |
-| 5       | Accessibility     | 5         | 2     | 20%    | 8%            |
-| **Total** |                 |           |       | 100%   | 78%           |
+<h4>Table 3: Teensy 4.0 Platform</h4>
+<table>
+    <tr>
+        <th></th><th>Criteria</th><th>Max Score</th><th>Score</th><th>Weight</th><th>Weighted Score</th>
+    </tr>
+    <tr>
+        <td>1</td><td>Initial Viability</td><td>5</td><td>5</td><td>25%</td><td>25%</td>
+    </tr>
+    <tr>
+        <td>2</td><td>Cost</td><td>5</td><td>5</td><td>15%</td><td>15%</td>
+    </tr>
+    <tr>
+        <td>3</td><td>Modularity</td><td>5</td><td>3</td><td>25%</td><td>15%</td>
+    </tr>
+    <tr>
+        <td>4</td><td>Size</td><td>5</td><td>5</td><td>15%</</td><td>15%</td>
+    </tr>
+    <tr>
+        <td>5</td><td>Accessibility</td><td>5</td><td>2</td><td>20%</td><td>8%</td>
+    </tr>
+    <tr><td><strong>Total</strong></td><td></td><td></td><td></td><td>100%</</td><td>78%</td>
+    </tr>
+</table>
 
 
   <li>Decision Analysis</li>
