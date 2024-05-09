@@ -26,8 +26,8 @@ The team designed and built a market-ready kit, marketed as the HoverDR1 Learnin
 <h2>TABLE OF CONTENTS</h2>
 
 <ol>
-  <li>Introduction</li>
-  <li>Review of Conceptual and Preliminary Design</li>
+  <li><a href="https://trankley.github.io/academic/capstone_detailed#1-introduction">Introduction</a></li>
+  <li><a href="https://trankley.github.io/academic/capstone_detailed#2-review-of-conceptual-and-preliminary-design">Review of Conceptual and Preliminary Design</a></li>
   <ol>
     <li>Problem Analysis</li>
     <ol>
@@ -42,13 +42,13 @@ The team designed and built a market-ready kit, marketed as the HoverDR1 Learnin
       <li>Decision Analysis</li>
     </ol>
   </ol>
-  <li>Basic Solution Description</li>
+  <li><a href="https://trankley.github.io/academic/capstone_detailed#3-basic-solution-description">Basic Solution Description</a></li>
   <ol>
     <li>Subsystem 1 (Motor Controls)</li>
     <li>Subsystem 2 (FFT)</li>
     <li>Subsystem 3 (Chassis)</li>
   </ol>
-  <li>Performance Optimization and Design of System Components</li>
+  <li><a href="https://trankley.github.io/academic/capstone_detailed#performance-optimization-and-design-of-system-components">Performance Optimization and Design of System Components</a></li>
   <ol>
     <li>Design Criteria</li>
     <ol>
@@ -74,12 +74,12 @@ The team designed and built a market-ready kit, marketed as the HoverDR1 Learnin
       <li>Metric 2: Universality</li>
     </ol>
   </ol>
-  <li>Testing Procedure</li>
+  <li><a href="https://trankley.github.io/academic/capstone_detailed#5-testing-procedure">Testing Procedure</a></li>
   <ol>
     <li>Metric 1</li>
     <li>Metric 2</li>
   </ol>
-  <li>Project Implementation/Operation and Assessment</li>
+  <li><a href="https://trankley.github.io/academic/capstone_detailed#6-project-implementation-operation-and-assessment">Project Implementation/Operation and Assessment</a></li>
   <ol>
     <li>Overview of Final Implementation</li>
     <li>Operational Test Results</li>
@@ -505,4 +505,10 @@ When choosing our target audience we wanted to select a group that would be more
 Part of selecting this audience included surveying teachers and students to gauge what qualities were most valued within a potential learning tool. We used these results to better highlight the strengths of our platform. We utilized these when creating the landing page, and our Kickstarter promotions. With our Kickstarter we filmed a 2 minute video including a demo, as well as released weekly updates to our backers. In addition to collaborating with the HCI team on the landing page, we also collaborated on creating a social media account for the HoverDr1. Through this process, in addition with word of mouth marketing  we raised over 1500 dollars from our kickstarter.<br><br>
 </ol>
 
-<h2>7. Standards Used</h2>
+<h2>7. Conclusion, Overview of Work Statement</h2>
+
+<h2>8. Future Work Recommendations</h2>
+<h2>9. Other Issues</h2>
+<h2>10. Cost Estimate</h2>
+<h2>11. Project Management Summary</h2>
+<h2>12. Appendices</h2>
