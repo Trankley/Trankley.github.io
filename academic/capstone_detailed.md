@@ -275,13 +275,42 @@ The Hover DR1 consists of the following components; an Arduino Uno R3 controller
 
 We have implemented a safety-stop feature so that the hoverboard will deactivate after 10 seconds of inactivity or the stop frequency is detected by the microphone. The safety-stop functions with a linear actuator powered by the arduino which simply pushes the power button on the hoverboard when the stop-procedure is initiated.<br><br>
 
- <p align="center"><img src= "/images/capstone/ArduinoR3.png" Width=400/></p>
+ <p align="center"><img src= "/images/capstone/deviceExploded" Width=400/></p>
         <h4 align="center">Figure 3: Depiction of the Components of the main system</h4>
 
- <p align="center"><img src= "/images/capstone/ArduinoR3.png" Width=400/></p>
+ <p align="center"><img src= "/images/capstone/linesonhoverboard" Width=400/></p>
         <h4 align="center">Figure 4: Depiction of the device on the hoverboard with the main shaft and biasing mount</h4>
 
+<ol>
+<li>Motor Control</li>
+<br><br>
+A motor driver plays an important role in controlling both the speed and spinning direction of a DC motor. Its significance becomes particularly pronounced when integrated with technologies such as audio processing. In this context, the motor driver, equipped with an audio processing code, is designed to modulate the speed and direction of the DC motor. The real-time adjustments are possible through the use of Fast Fourier Transform (FFT) code, allowing the motor driver to respond to audio signals. The mechanical attachment is designed to activate the hoverboard pressure plates, establishing a connection between the motor driver and the physical movement of the hoverboard. As a result, the motor driver, in tandem with its mechanical attachment, exerts influence on the hoverboard's motion, facilitating turns and stops.<br><br>
 
+<p align="center"><img src= "/images/capstone/MotorController.png" Width=400/></p>
+        <h4 align="center">Figure 5: L298N Motor Controller layout</h4>
+
+ <li>Audio Processing</li>
+<br><br>
+ The microphone picks up the sound emitted from Bluetooth speakers from the hoverboard. From here the audio is sent to the Arduino.  Once the sounds are received by the Arduino, an FFT operation is performed on the sound signal. The signal is broken up into different frequency components. The largest frequency component, which is the dominant frequency, is used to compare different set frequencies on the Arduino code. If the dominant frequency matches a set frequency a command is sent to the motor controller. Some of the commands consist of turning left, right, and a stop/ turn off hoverboard command. In addition, the commands are set up in a finite state machine to prevent commands from repeating multiple times when a command is received. For example, In order to vary the turning speed there are two different angles at which the device can turn the hoverboard. Each of these angles is one state in the finite state machines. Turning the opposite direction moves the states in the opposite direction.  Finally, there is a heartbeat command that automatically turns off the hoverboard if no commands are sent in a predetermined time frame. <br><br>
+
+<p align="center"><img src= "/images/capstone/Microphone.png" Width=400/></p>
+        <h4 align="center">Figure 6: KY-038 Microphone for audio proccesing</h4>
+
+ <li>Chassis</li>
+ A chassis is needed to hold all of the components that are to be used in the Hover DR1 device. The chassis needed to be rigid enough to hold the components so that they are fastened securely and in a compact manner, for this reason, and the expected custom nature of the project, we decided to 3D print all parts of the chassis out of PLA filament. The only part that was not 3D printed was the main shaft due to the rotational forces on it. The entire chassis consists of; a main chassis, chassis cover, rotating arm, forward-biasing mount, and safety-stop holder.
+ 
+ <p align="center"><img src= "/images/capstone/enticingpicofdevice" Width=400/></p>
+        <h4 align="center">Figure 7: Main Chassis with chassis cover</h4>
+
+
+ The main chassis is where the arduino, microphone, motor-controller, and motor are mounted, this is the central part of the device. The chassis cover is an enclosure that clips onto the main chassis and covers the components while leaving open ports for the necessary connections. The rotating arm is mounted to the main shaft and branches off from the main shaft in a “T” shape. This is so when the shaft rotates, the arm will apply force off-axis from the hoverboard’s main rotating axis. The forward-biasing mount is around the main shaft and can rotate freely around it, but rests on the front of the hoverboard. The purpose of the forward-biasing mount is to hold the battery for the device as well as provide a weight on the front of the hoverboard which causes it to move forward indefinitely. 
+
+<p align="center"><img src= "/images/capstone/forwardBias.png" Width=400/></p>
+        <h4 align="center">Figure 8: Battery holder and forward bias</h4>
+
+
+ The safety-stop holder is a 3D-printed mount for the linear actuator that makes up the safety mechanism. The holder is mounted with straps to the hoverboard and can be aligned with the power button on most hoverboards so that, when activated and calibrated correctly, the power button can be pushed remotely and the hoverboard will turn off.
+</ol>
 
 
 
