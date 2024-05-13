@@ -506,9 +506,181 @@ Part of selecting this audience included surveying teachers and students to gaug
 </ol>
 
 <h2>7. Conclusion, Overview of Work Statement</h2>
+<ol>
+<li>Conclusion</li><br>
+
+After a comprehensive evaluation, our team has arrived at the discerning conclusion that
+the HoverDR1 represents an exceedingly viable and market-ready solution. It addresses
+the pressing need to facilitate the acquisition of fundamental STEM (Science, Technology,
+Engineering, and Mathematics) knowledge among a broad spectrum of users,
+encompassing parents, educators, and individuals with nascent engineering skills. By
+ingeniously transforming the ubiquitous and readily available hoverboard devices found in
+countless households today into educational platforms, the HoverDR1 not only imparts
+valuable learning experiences but also contributes to the noble cause of reducing
+electronic waste (e-waste) within homes. This multifaceted approach signifies a pivotal
+stride toward sustainable and meaningful technological education while simultaneously
+fostering environmentally responsible practices.<br><br>
+
+<li>Overview of Work Statement</li><br>
+
+Our project involved the development of the HoverDR1 Learning Module, a hands-on
+educational kit designed to convert standard hoverboards into interactive learning platforms. The work encompassed the assembly of a modular system incorporating an
+Arduino microcontroller, KY-037 Microphone module, Motor, motor driver, and an
+emergency stop system, all housed within a custom 3D-printed enclosure. Our team
+crafted comprehensive instructional materials, including step-by-step assembly
+instructions and programming guidance, to facilitate STEM and coding education for
+students, children, and novice engineers. Extensive testing ensured functionality and
+safety, leading to the successful launch of the HoverDR1 Learning Module as a valuable
+resource for experiential learning and creative exploration in the fields of STEM, coding,
+and audio engineering.<br>
+</ol>
 
 <h2>8. Future Work Recommendations</h2>
+There are two improvements that we thought would be useful for this project, but we were
+unable to accomplish in our time frame. Those are radar integration and payload delivery.
+<ol>
+<li>Radar Integration for Object Detection and Tracking</li>
+<ul>
+	<li>object Detection</li>
+	<ul>
+		<li>External Radar chip provided by TI, communicates with the arduino.</li>
+		<li>the sensor detects objects up to 6 feet away and attempts to avoid collision.</li>
+		<li>if the object is too close to the hoverboard, engage the safety stop feature to ensure no harm is done to the module or the object.</li>
+	</ul>
+	<li>Object Tracking</li>
+	<ul>
+		<li>utilizes same radar unit from TI.</li>
+		<li>Allows for autonomus following without user input.</li>
+	</ul>
+</ul>
+	<li>Cargo Cart Attachment for Payload Transportation</li>
+	<ul>
+		<li>Payload Capacity</li>
+		<ul>
+			<li>Specially designed cart attachment for carrying a variety of
+				payloads.</li>
+			<li>Enables users to transport groceries, small packages, or personal 
+				items conveniently.</li>
+			<li>Expand the functionality of the hoverboard beyond personal 
+				transportation.</li>
+		</ul>
+		<li>Stability and Design</li>
+		<ul> 
+		<li>Sturdy attachment mechanism ensures stability during
+			movement.</li>
+		<li>Designed to maintain the hoverboard's balance while carrying a
+			payload.</li>
+		</ul>
+		<li>Practical Application</li>
+		<ul>
+			<li>Perfect for short-distance transportation of goods in urban or
+				suburban settings.</li>
+			<li>Adds a utilitarian aspect to the hoverboard, making it a 
+				versatile tool for daily tasks.</li>
+			<li>Elevates the hoverboard from a recreational gadget to a practical 
+				and efficient companion.</li>
+		</ul>
+	</ul>
+</ol>
+
 <h2>9. Other Issues</h2>
+<ol>
+<li>Ethics</li>
+<ol>
+	<li>Safety Stop</li><br>
+	The primary concern of our design was that we were creating a free moving object that
+could move at high speeds, with the only controls being handled by audio. This could
+potentially lead to injury, so as engineers dedicated towards safety and innovation we
+implemented a safety stop that the user can trigger manually.<br><br>
+	<li>Operation Manual</li><br>
+	The creation of an operational manual for our product is an ethical imperative. This
+manual establishes standardized procedures, ensuring consistency, safety, and fairness
+for all stakeholders. It promotes transparency, reduces errors, and upholds accountability,
+particularly in critical service industries. By prioritizing the well-being of users and aligning with ethical principles, this manual safeguards our product's integrity and reliability.<br><br>
+	<li>User Warnings</li><br>
+	Implementing user warnings is an ethical responsibility integral to our product&#39;s integrity. These warnings prioritize user safety, providing crucial information to mitigate risks and ensure informed usage. Ethically, they uphold transparency, reduce liabilities, and
+demonstrate our commitment to user welfare. By adhering to ethical guidelines, our
+product warnings serve as a safeguard, empowering users to make informed decisions
+and fostering a culture of safety and trust.<br><br>
+	<li>Backer Confidentiality</li><br>
+	Maintaining backer confidentiality is an ethical cornerstone of our operations. It ensures the trust and privacy of our backers, aligning with our commitment to ethical practices. Upholding confidentiality safeguards sensitive information, respects individual privacy rights, and builds a foundation of trust with our backers. Ethically, it is imperative to prioritize and protect this confidentiality, reinforcing our integrity and fostering enduring relationships built on trust and respect.<br><br>
+</ol>
+<li>Soft Skills</li>
+	<ol>
+		<li>Lifelong Learning</li><br>
+		Team members have cultivated a mindset that values ongoing
+education, staying current with emerging trends in hoverboard technology,
+safety standards, and user preferences. We tested our product with small
+groups in order to get user responses and learn how to improve. By adopting
+a commitment to lifelong learning, we ensure that our learning platform
+remains current and provides users with an experience that reflects the latest advancements in the field.<br><br>
+		<li>Contemporary Issues</li><br>
+		From evolving safety regulations to sustainable design
+considerations, the team is committed to addressing and adapting to current
+challenges. By actively monitoring industry trends, environmental concerns,
+and user expectations. This ensures that we not only meet current standards
+but also anticipates and addresses future considerations, staying relevant in
+an ever-changing landscape.<br><br>
+		<li>Multidisciplinary Teams</li><br>
+		Building on the success of our project involves recognizing the value
+of multidisciplinary teams. The diverse expertise within the team,
+ranging from power engineers and chassis designers to marketing
+specialists, contributes to a holistic and innovative development
+process. Each team member brings a unique perspective to the table,
+enriching the design, functionality, and user experience of the
+hoverboard. By fostering this collaborative mindset, the Hover DR1
+project ensures that it remains on the cutting edge of both technology
+and user satisfaction.<br><br>
+	</ol>
+<Li>Operating Instructions</Li>
+	<ol>
+		<li>Assembly</li><br>
+		The individual parts need to be attached to the chassis of the device. To do this you
+need to match the holes on the individual parts to the chassis. The motor will go on the
+bottom of the chassis. The Arduino will be set in the center and the motor controller and
+the microphone will be set next to the Arduino. The Arduino will be wired according to the
+wiring diagram seen below. Jumper wires are used to connect most of the boards
+together. After the parts are screwed onto the chassis and wired like the diagram below,
+The cover for the device is placed on top. The wires may snag and get in the way of the
+cover; some wires may need to be pushed inside the device to prevent them from being in
+the way of the cover. Once the device is fully constructed it is ready to be set up and
+placed on the hoverboard.<br><br>
+		<li>Setup</li><br>
+		Place the Chassis on top of the Hoverboard, then wrap the straps on both sides of
+the hoverboard. One of the straps will be wrapped around the chassis of the device to
+keep it in place. The other strap will be wrapped around the other half of the hoverboard
+and the arm responsible for turning on the device. Make sure that both straps are wrapped
+tightly enough so that the pressure plates on the hoverboard are pressed down. position
+the emergency stop on top of the on/off button on the hoverboard and use the straps to
+secure it in place. Lastly, on the arm of the device, there is a pocket where the battery is
+placed to forward bias the hoverboard.<br><br>
+		<li>Operation</li><br>
+		To operate the device you need to power on the hoverboard and the device. From
+here you can connect to the speaker on the hoverboard with a phone or other Bluetooth-
+capable device. A Frequency is played from the phone using either the built-in app or any
+app of your choosing. This frequency should be played for a few seconds to ensure that the microphones properly register the played frequency. Different frequencies can be
+played to change the direction of the hoverboard and a stop frequency can be played to
+shut off the hoverboard if needed. Since the code is open-source, the frequency required
+to execute certain commands can be altered and the commands themselves can also be
+altered. This means the user has the power to alter the operation of the device to their
+liking. Anywhere from changing the heartbeat command to fine-tuning the turning angle
+can be achieved by the user.<br><br>
+		<li>Standard Operation</li><br>
+		The device comes with a preloaded code and can be used the moment the
+device is received. When a frequency is played between 700 and 800 for a left
+turn. If a frequency is played between 1200 and 1300, then a right-turn command
+is executed. Additionally, if a frequency of 1500 to 1700 is played then the stop
+command is played.<br><br>
+		<li>Custom Operation</li><br>
+		Due to the open-source nature of the device, each command can be
+changed. This means in this mode of operation the user can change the
+commands to their liking. All that is needed to do this is a USB-A to USB-B to
+program the Arduino with the code provided in the GitHub for the device. Once the
+code is downloaded, the user can alter the frequencies under the if statements to
+change the frequency of the commands. The turn direction function in the code can
+also be changed to alter how the device responds to the frequency commands.<br><br>
+	</ol>
+</ol>
 <h2>10. Cost Estimate</h2>
 <h2>11. Project Management Summary</h2>
 <h2>12. Appendices</h2>
