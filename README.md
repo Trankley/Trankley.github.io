@@ -4,13 +4,13 @@
 
 <h3>Bio</h3>
 
-a Computer Engineer with a Bachelor's Degree from the University of Texas at Dallas. My passion lies in blending hardware and software to create innovative solutions for complex problems. I have a strong background in both Computer Science and Electrical Engineering, which I utilize to drive impactful and sustainable technological advancements.<br>
+a Computer Engineer with a Bachelor's Degree from the University of Texas at Dallas. My passion lies in blending hardware and software to create innovative solutions for complex problems. I have a strong background in both Computer Science and Electrical Engineering, which I utilize to drive impactful and sustainable technological advancements.<br><br>
 
-Throughout my academic and professional journey, I have led interdisciplinary teams to develop cutting-edge projects. Notably, I led the development of the Hover DR1, an audio-reactive hoverboard that won first place at the UTD Senior Design EXPO. I also engineered a smart fishing rod with advanced bite detection, cast distance measurement, and fish species identification capabilities, integrating it with AWS for robust data management.<br>
+Throughout my academic and professional journey, I have led interdisciplinary teams to develop cutting-edge projects. Notably, I led the development of the Hover DR1, an audio-reactive hoverboard that won first place at the UTD Senior Design EXPO. I also engineered a smart fishing rod with advanced bite detection, cast distance measurement, and fish species identification capabilities, integrating it with AWS for robust data management.<br><br>
 
-My technical skills include Python, C++, Java, machine learning, embedded systems, computer architecture, and digital circuits. I am proficient in tools such as TensorFlow, SolidWorks CAD, Xilinx Vivado, and MATLAB. I am also a certified professional in Generative AI and SQL.<br>
+My technical skills include Python, C++, Java, machine learning, embedded systems, computer architecture, and digital circuits. I am proficient in tools such as TensorFlow, SolidWorks CAD, Xilinx Vivado, and MATLAB. I am also a certified professional in Generative AI and SQL.<br><br>
 
-In addition to my technical expertise, I bring strong leadership, communication, and problem-solving skills. I am an Eagle Scout and have served as VP and Treasurer of a student organization at UT Dallas.<br>
+In addition to my technical expertise, I bring strong leadership, communication, and problem-solving skills. I am an Eagle Scout and have served as VP and Treasurer of a student organization at UT Dallas.<br><br>
 
 I am dedicated to continuous learning and applying my skills towards creating impactful technological solutions. Feel free to connect with me at trankley@gmail.com or on <a href="https://www.linkedin.com/in/trankley/">LinkedIn</a> .
 
