@@ -8,6 +8,12 @@ As an innovative Computer Engineer with a passion for blending hardware and soft
 
 My expertise spans from developing cutting-edge technology solutions, like an audio-reactive hoverboard and a machine learning-powered fishing rod attachment, to leading teams to victory in competitive engineering challenges. Proficient in Python, machine learning, and product development, I am dedicated to continuous learning and applying my skills towards impactful and sustainable technological advancements.
 
+<h2>Resume</h2>
+<ul>
+  <li><a href="https://trankley.github.io/Resume/digital.md">Online Resume</a></li>
+  <li><a href="https://trankley.github.io/Resume/download">Downloadable Resume</a></li>
+</ul>
+
 <h2>Projects</h2>
 
 <ul>
