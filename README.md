@@ -4,7 +4,7 @@
 
 <h3>Bio</h3>
 
-a Computer Engineer with a Bachelor's Degree from the University of Texas at Dallas. My passion lies in blending hardware and software to create innovative solutions for complex problems. I have a strong background in both Computer Science and Electrical Engineering, which I utilize to drive impactful and sustainable technological advancements.<br><br>
+A Computer Engineer with a Bachelor's Degree from the University of Texas at Dallas. My passion lies in blending hardware and software to create innovative solutions for complex problems. I have a strong background in both Computer Science and Electrical Engineering, which I utilize to drive impactful and sustainable technological advancements.<br><br>
 
 Throughout my academic and professional journey, I have led interdisciplinary teams to develop cutting-edge projects. Notably, I led the development of the Hover DR1, an audio-reactive hoverboard that won first place at the UTD Senior Design EXPO. I also engineered a smart fishing rod with advanced bite detection, cast distance measurement, and fish species identification capabilities, integrating it with AWS for robust data management.<br><br>
 
