@@ -1,6 +1,5 @@
-<body>
-    <div class="container">
-        <h1>Robert Trankley Mahler III</h1>
+
+<h1>Robert Trankley Mahler III</h1>
         <div class="contact-info">
             <p>830-431-2888 | <a href="mailto:trankley@gmail.com">Trankley@gmail.com</a></p>
         </div>
@@ -68,5 +67,3 @@
             <p>Available upon request</p>
         </div>
     </div>
-</body>
-</html>
