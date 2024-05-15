@@ -645,6 +645,7 @@ The cover for the device is placed on top. The wires may snag and get in the way
 cover; some wires may need to be pushed inside the device to prevent them from being in
 the way of the cover. Once the device is fully constructed it is ready to be set up and
 placed on the hoverboard.<br><br>
+		<p align="center"><img src= "/images/capstone/powerPins.png" Width=500/></p>
 		<li>Setup</li><br>
 		Place the Chassis on top of the Hoverboard, then wrap the straps on both sides of
 the hoverboard. One of the straps will be wrapped around the chassis of the device to
@@ -682,5 +683,45 @@ also be changed to alter how the device responds to the frequency commands.<br><
 	</ol>
 </ol>
 <h2>10. Cost Estimate</h2>
+<ol>
+	<li>Materials and Construction</li>
+	The prices are based on off-shelf prices and consist mostly of electronics. The Chassis of the device is comprised of PLA and is 3-D printed.  
+	<p align="center"><img src= "/images/capstone/costBreakDown.png" Width=500/></p>
+	<h4>Figure 16: Buget Breakdown</h4>
+	<li>Estimate of Design Cost(man hours, travel, etc)</li>
+	During summer the team spent around ten hours a week (around 7 weeks) while during the second semester, the hours went down to around 5-8 per week. Which leads to around 74 hours the team has spent together working on the project. The team also participated in events like Texas BEST where the hoverboard idea was pitched to the organization.
+</ol>
 <h2>11. Project Management Summary</h2>
+<ol>
+	<li>Tasks Completed</li>
+	<ul>
+		<li>prototyping</li>
+		<ul>
+			<li>audio processing</li>
+			<li>activation mechanisims</li>
+			<li>motor testing</li>
+			<li>enclosure modification</li>
+			<li>aesthetically pleasing design</li>
+		</ul>
+		<li>production model</li>
+		<li>saftey stop mechanism</li>
+		<li>Kickstarter</li>
+		<ul>
+			<li>First Look/Pitch Video</li>
+			<li>Demo Videos</li>
+			<li>Weekly Updates</li>
+			<li>Reaching Out To Potential Backers</li>
+		</ul>
+	</ul>
+	<li>Tasks Pending Completion</li>
+	<ul>
+		<li>Strech Goals</li>
+		<ul>
+			<li>radar integration</li>
+			<li>payload delivery</li>
+		</ul>
+	</ul>
+	<li>Time Allocated</li>
+	Gantt Chart:
+</ol>
 <h2>12. Appendices</h2>
