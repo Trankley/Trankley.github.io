@@ -36,7 +36,8 @@ Steven the Robot placed second in the competition. Our emphasis on speed and the
 <h5 align="center">Award ceremony, my team is on the left</h5>
   
 <h4>Video Demo</h4>
-<video align="center"><source src= "/images/StevenTheRobot/Steven-moving.mp4" type="Steven-moving.mp4"></video>
+<video width= "560" height="315" controls> <source src= "https://raw.githubusercontent.com/Trankley/Trankley.github.io/main/images/StevenTheRobot/Steven-moving.mp4" type="video/mp4">
+</video>
 
 <h3>Conclusion</h3>
 Working on Steven the Robot was an incredible learning experience that combined theoretical knowledge with practical application. The project challenged us to innovate and refine our approach to embedded systems, ultimately resulting in a successful competition performance. Thank you for exploring this project with me!
