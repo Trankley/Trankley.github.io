@@ -22,8 +22,8 @@ I am dedicated to continuous learning and applying my skills towards creating im
 <h2>Projects</h2>
 
 <ul>
-<li><a href="https://trankley.github.io/academic/Smart_Fishing_Rod">Smart Fishing Rod</a></li>
 <li><a href="https://trankley.github.io/academic/capstone">Hover DR1</a></li>
+<li><a href="https://trankley.github.io/academic/Smart_Fishing_Rod">Smart Fishing Rod</a></li>
 <li><a href="https://trankley.github.io/academic/19_Bit_ISA">Custom 19-Bit ISA</a></li>
 <li><a href="https://trankley.github.io/academic/StevenTheRobot">Embedded Systems Autonomus Robot</a></li>
 </ul>
