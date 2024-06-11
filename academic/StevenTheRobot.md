@@ -36,7 +36,7 @@ Steven the Robot placed second in the competition. Our emphasis on speed and the
 <h5 align="center">Award ceremony, my team is on the left</h5>
   
 <h4>Video Demo</h4>
-<video width= "560" height="315" controls> <source src= "https://raw.githubusercontent.com/Trankley/Trankley.github.io/main/images/StevenTheRobot/Steven-moving.mp4" type="video/mp4">
+<video align="center" width= "560" height="315" controls> <source src= "https://raw.githubusercontent.com/Trankley/Trankley.github.io/main/images/StevenTheRobot/Steven-moving.mp4" type="video/mp4">
 </video>
 
 <h3>Conclusion</h3>
