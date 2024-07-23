@@ -1,4 +1,4 @@
-<p align="center"><img alt="Trankley Head Shot" src="https://media.licdn.com/dms/image/C5603AQE7ywL7RZrFug/profile-displayphoto-shrink_800_800/0/1659469587140?e=1720051200&v=beta&t=-ZtvCRjtyLgi8VTgsFmxkFUIi4_Gf4PTcG8SKeuJN4s" width ="400">
+<p align="center"><img src= "/images/TrankleyHeadShot.jpg" Width=400/>
 
 <h2 align="center"> Computer Engineer </h2>
 
