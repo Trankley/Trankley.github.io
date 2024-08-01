@@ -16,7 +16,7 @@ I am dedicated to continuous learning and applying my skills towards creating im
 
 <h2>Resume</h2>
 <ul>
-  <li><a href="https://trankley.github.io/Resume/Trankley_Resume.pdf">PDF Resume</a></li>
+  <li><a href="https://trankley.github.io/Resume/Trankley_Mahler_Resume.pdf">PDF Resume</a></li>
 </ul>
 
 <h2>Projects</h2>
