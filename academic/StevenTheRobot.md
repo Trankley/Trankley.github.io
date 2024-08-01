@@ -7,7 +7,7 @@ This page is dedicated to my RSLK Robot project "Steven the Robot", built using 
 <h3>Project Overview</h3>
 <ul>
   <li><b>Project Name:</b> Steven The Robot</li>
-  <li><b>Class:</b></li>
+  <li><b>Class:</b> Embedded Systems</li>
   <li><b>Platform:</b> Texas Instruments Launchpad</li>
 </ul>
 
