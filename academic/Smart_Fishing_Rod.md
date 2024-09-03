@@ -10,7 +10,7 @@ parent: academic
 
 <h2>Overview</h2>
 
-The Smart Fishing Rod revolutionizes the fishing experience by incorporating cutting-edge IoT technology to enhance angler performance and enjoyment. Designed for precision and ease, this smart device integrates advanced sensors and real-time data analytics to offer unprecedented insights into the fishing activity.
+The Smart Fishing Rod revolutionizes the fishing experience by incorporating cutting-edge IoT technology to optimize angler performance and enjoyment. Designed for precision and ease, this smart device integrates advanced sensors and real-time data analytics to offer insights into your fishing activities.
 
 <h3>Key Features</h3>
 <ol>
@@ -25,7 +25,7 @@ The Smart Fishing Rod revolutionizes the fishing experience by incorporating cut
         
 <p align="center"><img src= "/images/fishing-rod/ML-fish-detection.png" width=700>
     <li><b>Real-time Data Streaming</b>:
-        Streams video and data to the cloud in real-time, enabling dynamic fish tracking and immediate angler feedback.</li>
+        Streams video and data to an AWS cloud server in real-time, enabling dynamic fish tracking and data analytics at any time.</li>
         
  <p align="center"><img src= "/images/fishing-rod/fishingRodAWS.png" width=600>
 </ol>
@@ -36,9 +36,9 @@ The Smart Fishing Rod revolutionizes the fishing experience by incorporating cut
     <li><b>Core Processor</b>:
         Raspberry Pi 4, leveraging its robust processing capabilities for fast and efficient real-time data analysis.</li>
     <li><b>Sensors</b>:
-        Includes a Tachometer and a camera for detecting speed data, live streaming and species identification through TinyML object recognition technology. </li>
+        Includes a tachometer and a camera for detecting speed data, live streaming and species identification through TinyML object recognition technology. </li>
     <li><b>Frame Material</b>:
-        Currently a 3D printed model for folding the components in place</li>
+        Currently a 3D printed model for holding the components in place</li>
 </ul>
 
 <h3>User Experience</h3>
@@ -56,9 +56,9 @@ The Smart Fishing Rod revolutionizes the fishing experience by incorporating cut
 
 <ul>
     <li><b>Species Expansion</b>:
-        Plans to expand the database to identify more fish species and improve the accuracy of existing identifications.</li>
+        Plans to expand the database to identify more fish species and improve the accuracy of existing species.</li>
     <li><b>Size Estimation</b>:
-        Integrating technology to estimate the size of the catch, helping anglers adhere to fishing regulations regarding permissible catch sizes.</li>
+        Integrating algorithem to estimate the size of the catch, helping anglers adhere to fishing regulations regarding permissible catch sizes.</li>
     <li><b>Enviromental Sensors</b>:
         Depth, water temperature, and water quality sensors to provide more detailed enviromental feedback, enhancing the fishing experience</li>
 </ul>
