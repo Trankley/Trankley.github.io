@@ -23,6 +23,10 @@ This project involves the creation of a unique 19-bit Instruction Set Architectu
   <li><b>Module Design:</b> Detailed design of various modules including ALU, register file, and control unit to handle multiple cycle operations effectively.</li>
 </ul>
 
+<h3>Elaborated Design Diagram</h3>
+coming soon<br><br>
+
+
 <h3>Educational Impact</h3>
 <ul>
   <li><b>Understanding Core Concepts:</b> By engaging with this project, I gained a thorough understanding of microprocessor operations, from basic logic gates to complex CPU functions.</li>
@@ -30,3 +34,5 @@ This project involves the creation of a unique 19-bit Instruction Set Architectu
   <li><b>Curriculum Integration:</b> This project connected textbook theory with practical application by offering a tangible demonstration of a theoretical concept.</li>
 </ul>
 
+<h3>Code Sample</h3>
+Given that other people are currently doing a similar assignment, i wont be providing all of the code, the following was written in Vivado using the C++ coding language:<br><br>
