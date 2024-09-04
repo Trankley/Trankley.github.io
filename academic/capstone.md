@@ -28,11 +28,11 @@ Part of this project was creating and launching kickstarter so that we could exp
 
 <h3>Technical Specifications</h3>
 <ul>
-  <li><b>Arduino Uno</b>:</li>
-  <li><b>L298N H-Bridge Motor Controller</b>:</li>
-  <li><b>KY-037 Microphone</b>:</li>
-  <li><b>12V Geared Motor</b>:</li>
-  <li><b>Frame Material</b>:</li>
+  <li><b>Arduino Uno</b>: The core of the device.</li>
+  <li><b>L298N H-Bridge Motor Controller</b>: To step up voltage from 5V to 12V.</li>
+  <li><b>KY-037 Microphone</b>: To recive audio input.</li>
+  <li><b>12V Geared Motor</b>: To drive the direction controls.</li>
+  <li><b>Frame Material</b>: PLA for cost effectiveness and ease of access.</li>
 </ul>
 
 <p align="center"><img src= "/images/capstone/deviceExploded" Width=600/>
