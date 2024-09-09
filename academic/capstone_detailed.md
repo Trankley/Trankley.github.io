@@ -541,15 +541,15 @@ unable to accomplish in our time frame. Those are radar integration and payload 
 <ol>
 <li>Radar Integration for Object Detection and Tracking</li>
 <ul>
-	<li>object Detection</li>
+	<li>Object Detection</li>
 	<ul>
 		<li>External Radar chip provided by TI, communicates with the arduino.</li>
-		<li>the sensor detects objects up to 6 feet away and attempts to avoid collision.</li>
-		<li>if the object is too close to the hoverboard, engage the safety stop feature to ensure no harm is done to the module or the object.</li>
+		<li>The sensor detects objects up to 6 feet away and attempts to avoid collision.</li>
+		<li>If the object is too close to the hoverboard, engage the safety stop feature to ensure no harm is done to the module or the object.</li>
 	</ul>
 	<li>Object Tracking</li>
 	<ul>
-		<li>utilizes same radar unit from TI.</li>
+		<li>Object tracking utilizes same radar unit from TI.</li>
 		<li>Allows for autonomus following without user input.</li>
 	</ul>
 </ul>
